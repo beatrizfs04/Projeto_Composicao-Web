@@ -1,0 +1,270 @@
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*Bodys*/
+
+body {
+    margin: 0%;
+    background-image: url('imagens/FundoFilmes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*Barra de Navegacao - Estilos*/
+
+.navback {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: #76C2A8;
+}
+
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.078);
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: 30px;
+    margin: auto;
+    margin-left: 30px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+/*Barra de Navegacao - Links*/
+
+.navigation-bar a,
+a:visited {
+    display: block;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    border: 1.5px solid rgba(254, 254, 254, 0.021);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.links-container a:hover {
+    background-color: #b4662711;
+    border: 1.5px solid rgba(168, 84, 16, 0.073);
+    border-radius: 10px;
+}
+
+.IniciarSessao a,
+.IniciarSessao a:visited {
+    border-radius: 10px;
+    border: 1.5px solid #f07a1981;
+}
+
+.CriarConta a,
+.CriarConta a:visited {
+    border-radius: 10px;
+    background-color: #f07a1922;
+    border: 1.5px solid #f07a1981;
+}
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*Conteudo*/
+
+.conteudo {
+    padding-top: 90px;
+}
+
+.formularios {
+    background: #d8d8d8f7;
+    width: 300px;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 117px;
+}
+
+.formularios input {
+    background: #ffffff;
+    width: 100%;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.formularios button {
+    background-image: linear-gradient(50deg, #328f8a, #08ac4b);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*Rodape*/
+
+.rodape{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.rodape table{
+    text-align: left;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+.rodape table td{
+    padding: 50px;
+}
+
+.titulos{
+    color: white;
+    font-size: 20px;
+}
+
+.marca, .contactos{
+    color: gray;
+    font-size: 14px;
+}
+
+
+
+
+/*Rodape - Formulario*/
+
+.rodape form{
+    padding-top: 10px;
+}
+
+.rodape input{
+    background: rgb(173, 173, 173);
+    color: black;
+    width: 320px;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.rodape textarea{
+    font-family: arial;
+    background: rgb(173, 173, 173);
+    color: black;
+    width: 320px;
+    height: 80px;
+    border: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.rodape button{
+    padding: 8px;
+    width: 100px;
+    background-color: #fbab6b;
+    color: black;
+    border-radius: 5px;
+    border: 0;
+}
+
+.rodape input::placeholder,
+.rodape textarea::placeholder {
+    color: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/*------------------------------------------------------------------------------*/
